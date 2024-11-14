@@ -92,18 +92,22 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
         jTableVentas = new javax.swing.JTable();
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Agregar venta", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Agregar venta", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18), new java.awt.Color(0, 0, 0))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("ID Venta");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("ID cliente");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText(" ID Empleado");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Metodo Pago");
 
         jTextIdVenta.addActionListener(new java.awt.event.ActionListener() {
@@ -124,6 +128,7 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
             }
         });
 
+        jTextMetodoPago.setText("0");
         jTextMetodoPago.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextMetodoPagoActionPerformed(evt);
@@ -131,10 +136,12 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Fecha venta");
 
         jBAgregar.setBackground(java.awt.SystemColor.activeCaption);
         jBAgregar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jBAgregar.setForeground(new java.awt.Color(0, 0, 0));
         jBAgregar.setText("Agregar");
         jBAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,6 +151,7 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
 
         jBEditar.setBackground(java.awt.SystemColor.activeCaption);
         jBEditar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jBEditar.setForeground(new java.awt.Color(0, 0, 0));
         jBEditar.setText("Editar");
         jBEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,6 +161,7 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
 
         jBActualizar.setBackground(java.awt.SystemColor.activeCaption);
         jBActualizar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jBActualizar.setForeground(new java.awt.Color(0, 0, 0));
         jBActualizar.setText("Actualizar");
         jBActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,6 +171,7 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
 
         jBBorrar.setBackground(java.awt.SystemColor.activeCaption);
         jBBorrar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jBBorrar.setForeground(new java.awt.Color(0, 0, 0));
         jBBorrar.setText("Borrar");
         jBBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -233,7 +243,7 @@ public class JInternalFrameVentas extends javax.swing.JInternalFrame {
         );
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Ventas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Ventas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18), new java.awt.Color(0, 0, 0))); // NOI18N
 
         jTableVentas.setBackground(new java.awt.Color(204, 204, 204));
         jTableVentas.setModel(new javax.swing.table.DefaultTableModel(
